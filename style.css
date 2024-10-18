@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    font-weight: 500;
+    font-family: Helvetica;
+}
+.calculator{
+    position: relative;
+    top:5rem;
+    margin: auto;
+    width: 22rem;
+    height: 23rem;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-color: grey;
+}
+.screen{
+    margin-left:0.8rem;
+    margin-top: 0.2rem;
+    height: 5rem;
+    width: 20rem;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 2px;
+}
+.keys{
+    margin-top:1.7rem;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 15.5rem;
+    width: 21.5rem;
+}
+.numbers{
+    position: relative;
+    left:0.5rem;
+    top:0.9rem;
+    height:10rem;
+    width: 12rem;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+}
+.numbers button{
+    height: 2.8rem;
+    width: 3.5rem;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 2px;
+    color:white;
+    font-size: larger;
+}
+.numbers button:hover{
+    cursor: pointer;
+    box-shadow: 4px 6px 5px darkgrey;
+}
+.numbers button:active{
+    background-color:rgba(255,255,255,0.5);
+    color:black;
+}
+.operators{
+    height:10rem;
+    width: 8rem;
+    position: relative;
+    left: 13rem;
+    bottom:11.9rem;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+}
+.operators button{
+    height: 2.8rem;
+    width: 3.5rem;
+    background-color: black;
+    border:2px solid white;
+    border-radius: 2px;
+    color:white;
+    font-size: larger;
+}
+.operators button:hover{
+    cursor: pointer;
+    box-shadow: 4px 6px 5px darkgrey;
+}
+.operators button:active{
+    background-color:rgba(255,255,255,0.5);
+    color:black;
+}
+.open-bracket{
+    position: relative;
+    bottom:12.5rem;
+    left:0.5rem;
+    height: 2.8rem;
+    width: 3.5rem;
+    background-color: black;
+    border:2px solid white;
+    border-radius: 2px;
+    color:white;
+    font-size: larger;
+}
+.open-bracket:hover{
+    cursor: pointer;
+    box-shadow: 4px 6px 5px darkgrey;
+}
+.open-bracket:active{
+    background-color:rgba(255,255,255,0.5);
+    color:black;
+}
+.close-bracket{
+    position: relative;
+    bottom:12.5rem;
+    left:0.8rem;
+    height: 2.8rem;
+    width: 3.5rem;
+    background-color: black;
+    border:2px solid white;
+    border-radius: 2px;
+    color:white;
+    font-size: larger;
+}
+.close-bracket:hover{
+    cursor: pointer;
+    box-shadow: 4px 6px 5px darkgrey;
+}
+.close-bracket:active{
+    background-color:rgba(255,255,255,0.5);
+    color:black;
+}
+#equal{
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+.del{
+    position: relative;
+    left:11.5rem;
+    top:0.3rem;
+    height:3.7rem;
+    width: 4rem;
+    background-color:rgb(190,0,0);
+    color:white;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-size: 1.34rem;
+}
+.del:hover{
+    cursor: pointer;
+    box-shadow: 4px 6px 5px darkgrey;
+}
+.del:active{
+    background-color: rgba(242, 9, 9,0.8);
+    color:black;
+}
+.AC{
+    position: relative;
+    left:12rem;
+    top:0.35rem;
+    height:3.7rem;
+    width: 4.7rem;
+    background-color:rgb(190,0,0);
+    color:white;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-size: larger;
+}
+.AC:hover{
+    cursor: pointer;
+    box-shadow: 4px 6px 5px darkgrey;
+}
+.AC:active{
+    background-color: rgba(242, 9, 9,0.8);
+    color:black;
+}
